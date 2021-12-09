@@ -10,6 +10,14 @@ public:
 		int s = a - b;
 		return s;
 	}
+	inline int multiplication(int a, int b) {
+		int s = a * b;
+		return s;
+	}
+	inline double division(int a, int b) {
+		double s = a / b;
+		return s;
+	}
 	
 
 	

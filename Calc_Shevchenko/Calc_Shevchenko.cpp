@@ -7,5 +7,9 @@ int main()
 	std::cout<<c_calc.plus(2,5);
 	std::cout << "\n";
 	std::cout << c_calc.minus(10,5);
+	std::cout << "\n";
+	std::cout << c_calc.multiplication(5, 5);
+	std::cout << "\n";
+	std::cout << c_calc.division(20, 2);
 }
 
