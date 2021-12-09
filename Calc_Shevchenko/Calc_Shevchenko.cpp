@@ -5,5 +5,7 @@ int main()
 	
 	c_Calc c_calc(2,2);
 	std::cout<<c_calc.plus(2,5);
+	std::cout << "\n";
+	std::cout << c_calc.minus(10,5);
 }
 
