@@ -18,6 +18,8 @@ public:
 		double s = a / b;
 		return s;
 	}
+	void smaller(int, int)const;
+	void bigger(int, int)const;
 	
 
 	
