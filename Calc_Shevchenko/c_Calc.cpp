@@ -50,3 +50,15 @@ void c_Calc::bigger(int a, int b) const
 		std::cout << b;
 	}
 }
+
+bool c_Calc::rav(int a , int b)
+{
+	if(a == b)
+	return true;
+}
+
+bool c_Calc::ne_rav(int a, int b)
+{
+	if(a!=b)
+	return false;
+}

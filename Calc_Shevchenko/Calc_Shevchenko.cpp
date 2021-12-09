@@ -17,5 +17,9 @@ int main()
 	c_calc.bigger(5, 6);
 	std::cout << "\n";
 	c_calc.division(4, 0);
+	std::cout << "\n";
+	std::cout<<c_calc.rav(2, 2);
+	std::cout << "\n";
+	std::cout << c_calc.ne_rav(2, 2);
 }
 

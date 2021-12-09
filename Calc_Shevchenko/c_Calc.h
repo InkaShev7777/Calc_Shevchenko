@@ -17,6 +17,7 @@ public:
 	double division(int, int); 
 	void smaller(int, int)const;
 	void bigger(int, int)const;
-
+	bool rav(int, int);
+	bool ne_rav(int, int);
 };
 
