@@ -15,5 +15,7 @@ int main()
 	c_calc.smaller(5, 10);
 	std::cout << "\n";
 	c_calc.bigger(5, 6);
+	std::cout << "\n";
+	c_calc.division(4, 0);
 }
 

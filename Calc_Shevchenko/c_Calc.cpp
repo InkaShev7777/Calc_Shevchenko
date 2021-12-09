@@ -12,6 +12,21 @@ int c_Calc::plus(int a, int b)
 	return s;
 }
 
+double c_Calc::division(int a, int b)
+{
+	int s;
+	if (b != 0)
+	{
+		s = a / b;
+		return s;
+	}
+	else
+	{
+		std::cout << "b == 0!!\n";
+	}
+	
+}
+
 void c_Calc::smaller(int a , int b) const
 {
 	if (a < b)

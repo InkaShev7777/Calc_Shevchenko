@@ -14,14 +14,9 @@ public:
 		int s = a * b;
 		return s;
 	}
-	inline double division(int a, int b) {
-		double s = a / b;
-		return s;
-	}
+	double division(int, int); 
 	void smaller(int, int)const;
 	void bigger(int, int)const;
-	
 
-	
 };
 
